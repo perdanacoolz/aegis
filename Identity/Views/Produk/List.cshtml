@@ -2,6 +2,27 @@
 @model List<Produk> 
 @{
 }
+<div>
+    @using (Html.BeginForm("ExportToExcel", "Produk", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+
+        <div>
+            <input type="submit" value="Export xls" class="btn-primary" />
+        </div>
+
+    }
+</div><br />
+<div>
+@using (Html.BeginForm("Export", "Produk", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    <div>
+        <input type="submit" value="Export pdf" class="btn-primary" />
+    </div>
+
+}
+</div>
+<br />
 <a href="@Url.Action("Create","Produk")">Create</a>
 <div class="row">
     <div class="col-md-12">
@@ -9,11 +30,12 @@
             <table class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>Staff No</th>
-                        <th>Last name</th>
-                        <th>First name</th>
-                        <th>Designation</th>
-                        <th>Address</th>
+                        <th> No</th>
+                        <th>nama produk</th>
+                        <th>jenis produk</th>
+                        <th>qty</th>
+                        <th>designation</th>
+                        <th>staff no</th>
                         <th></th>
                         <th></th>
                     </tr>
@@ -27,6 +49,7 @@
                         <td>@staff.jenis_produk</td>
                         <td>@staff.qty</td>
                             <td>@staff.Designation</td>
+                            <td>@staff.StaffNo</td>
                         <td>
                             <a class="btn btn-sm btn-primary" href="@Url.Action("Edit","Produk",new {id=staff.Id})">Edit</a>
                         </td>
