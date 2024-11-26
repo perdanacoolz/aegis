@@ -1,0 +1,20 @@
+﻿@model TwoFactor
+
+@{
+    ViewData["Title"] = "Login Two Step";
+}
+
+<h1 class="bg-info text-white">Login Two Step</h1>
+<div class="text-danger" asp-validation-summary="All"></div>
+
+<p>Enter your authentication code</p>
+
+<form asp-action="LoginTwoStep" method="post">
+    <div class="form-group">
+        <label>Code</label>
+        <input asp-for="TwoFactorCode" class="form-control" />
+    </div>
+    <button class="btn btn-primary" type="submit">Log In</button>
+</form>
+
+<div class="p-3 m-3 mb-2 bg-success text-white">Tutorial link: - <a class="text-white" target="_blank" href="https://www.yogihosting.com/aspnet-core-identity-two-factor-authentication/">Two-Factor Authentication in ASP.NET Core Identity</a></div>

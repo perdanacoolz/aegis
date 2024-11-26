@@ -1,0 +1,42 @@
+﻿@using Identity.Models;
+@model List<Produk> 
+@{
+}
+<a href="@Url.Action("Create","Produk")">Create</a>
+<div class="row">
+    <div class="col-md-12">
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Staff No</th>
+                        <th>Last name</th>
+                        <th>First name</th>
+                        <th>Designation</th>
+                        <th>Address</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var staff in Model)
+            {
+                    <tr>
+                        <td>@staff.Id</td>
+                        <td>@staff.nama_produk</td>
+                        <td>@staff.jenis_produk</td>
+                        <td>@staff.qty</td>
+                            <td>@staff.Designation</td>
+                        <td>
+                            <a class="btn btn-sm btn-primary" href="@Url.Action("Edit","Produk",new {id=staff.Id})">Edit</a>
+                        </td>
+                        <td>
+                                <a class="btn btn-sm btn-danger" href="@Url.Action("Delete","Produk",new {id=staff.Id})">Delete</a>
+                        </td>
+                    </tr>
+            }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
