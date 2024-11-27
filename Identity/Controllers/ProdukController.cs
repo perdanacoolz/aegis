@@ -5,9 +5,12 @@ using Identity.Models;
 using System;
 using ClosedXML.Excel;
 using System.Data;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
-using iTextSharp.tool.xml;
+using System.IO;
+using iText.Html2pdf;
+using iText.IO.Source;
+using iText.Kernel.Geom;
+using iText.Kernel.Pdf;
+using System.Text;
 namespace Identity.Controllers
 {
     public class ProdukController : Controller
@@ -25,57 +28,65 @@ namespace Identity.Controllers
         }
 
     
-        private static PdfPCell PhraseCell(Phrase phrase, int align)
-        {
-            PdfPCell cell = new PdfPCell(phrase);
-            cell.BorderColor = BaseColor.WHITE;
-            cell.VerticalAlignment = Element.ALIGN_TOP;
-            cell.HorizontalAlignment = align;
-            cell.PaddingBottom = 2f;
-            cell.PaddingTop = 0f;
-            return cell;
-        }
+ 
+        [HttpPost]
         public FileResult Export()
-        {
+        { 
 
-            string html = "StrTag laporan produk EndTag";
-            string ExportData = "This is first pdf generat";
-            using (MemoryStream stream = new System.IO.MemoryStream())
+            List<object> customers = (from customer in this._context.Produks.Take(10)
+                                      select new[] {
+                                      
+                                      customer.nama_produk,
+                                      customer.jenis_produk,
+                                      customer.Designation,
+                                      customer.StaffNo
+                                 }).ToList<object>();
+
+            //Building an HTML string.
+            StringBuilder sb = new StringBuilder();
+
+            //Table start.
+            sb.Append("<table border='1' cellpadding='5' cellspacing='0' style='border: 1px solid #ccc;font-family: Arial;'>");
+
+            //Building the Header row.
+            sb.Append("<tr>");
+            sb.Append("<th style='background-color: #B8DBFD;border: 1px solid #ccc'>CustomerID</th>");
+            sb.Append("<th style='background-color: #B8DBFD;border: 1px solid #ccc'>ContactName</th>");
+            sb.Append("<th style='background-color: #B8DBFD;border: 1px solid #ccc'>City</th>");
+            sb.Append("<th style='background-color: #B8DBFD;border: 1px solid #ccc'>Country</th>");
+            sb.Append("</tr>");
+
+            //Building the Data rows.
+            for (int i = 0; i < customers.Count; i++)
             {
-                StringReader reader = new StringReader(ExportData);
-                Document PdfFile = new iTextSharp.text.Document(PageSize.A3);
-                PdfWriter writer = PdfWriter.GetInstance(PdfFile, stream);
-                PdfFile.Open();
-                PdfPCell cell = null;
-                PdfPTable table = null;
-                Phrase phrase2 = null;
-                Phrase phrase1 = null;
-                phrase2 = new Phrase();
-                var titleFont = FontFactory.GetFont("Arial", 16, iTextSharp.text.Font.BOLD);
-
-
-                table = new PdfPTable(1);
-                table.TotalWidth = 800f;
-                table.LockedWidth = true;
-                table.SpacingBefore = 10;
-                table.SpacingAfter = 10;
-                table.HorizontalAlignment = Element.ALIGN_LEFT;
-
-                PdfFile.Add(table);
-                phrase1 = new Phrase();
-                html = html.Replace("StrTag", "<").Replace("EndTag", ">");
-                phrase1.Add(new Chunk(html, FontFactory.GetFont("Arial", 14, Font.BOLD)));
-                cell = PhraseCell(phrase1, PdfPCell.ALIGN_CENTER);
-                cell.VerticalAlignment = PdfPCell.ALIGN_MIDDLE;
-                table.AddCell(cell);
-                PdfFile.Add(table);
-
-                PdfFile.Open();
-                XMLWorkerHelper.GetInstance().ParseXHtml(writer, PdfFile, reader);
-                PdfFile.Close(); return File(stream.ToArray(), "application/pdf", "laporan produk.pdf");
+                string[] customer = (string[])customers[i];
+                sb.Append("<tr>");
+                for (int j = 0; j < customer.Length; j++)
+                {
+                    //Append data.
+                    sb.Append("<td style='border: 1px solid #ccc'>");
+                    sb.Append(customer[j]);
+                    sb.Append("</td>");
+                }
+                sb.Append("</tr>");
             }
 
+            //Table end.
+            sb.Append("</table>");
+
+            using (MemoryStream stream = new MemoryStream(Encoding.ASCII.GetBytes(sb.ToString())))
+            {
+                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+                PdfWriter writer = new PdfWriter(byteArrayOutputStream);
+                PdfDocument pdfDocument = new PdfDocument(writer);
+                pdfDocument.SetDefaultPageSize(PageSize.A4);
+                HtmlConverter.ConvertToPdf(stream, pdfDocument);
+                pdfDocument.Close();
+                return File(byteArrayOutputStream.ToArray(), "application/pdf", "Laporan produk.pdf");
+            }
         }
+
+        
 
         [HttpPost]
         public FileResult ExportToExcel()

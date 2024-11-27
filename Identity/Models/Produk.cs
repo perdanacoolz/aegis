@@ -20,5 +20,7 @@ namespace Identity.Models
         public string Designation { set; get; }
         [Required]
         public string StaffNo { set; get; }
+
+        public List<Produk> ShowallProduk{ get; set; }
     }
 }

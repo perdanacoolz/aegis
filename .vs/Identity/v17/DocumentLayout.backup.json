@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\Identity\\c\\Identity\\Identity\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\identity\\c\\identity\\identity\\identity\\controllers\\laporancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\controllers\\laporancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\identity\\c\\identity\\identity\\identity\\dal\\dataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\dal\\dataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\identity\\c\\identity\\identity\\identity\\models\\produk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\models\\produk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\identity\\c\\identity\\identity\\identity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\identity\\c\\identity\\identity\\identity\\controllers\\produkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\controllers\\produkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\identity\\c\\identity\\identity\\identity\\views\\produk\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\views\\produk\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\identity\\c\\identity\\identity\\identity\\models\\produk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\models\\produk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\identity\\c\\identity\\identity\\identity\\migrations\\20241126112739_bb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,33 +118,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Identity\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Identity\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAqwCsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T11:44:31.655Z",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Identity\\c\\Identity\\Identity\\Identity\\appsettings.json",
+              "RelativeDocumentMoniker": "Identity\\appsettings.json",
+              "ToolTip": "D:\\Identity\\c\\Identity\\Identity\\Identity\\appsettings.json",
+              "RelativeToolTip": "Identity\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-27T00:25:32.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataAccessLayer.cs",
+              "DocumentMoniker": "D:\\Identity\\c\\Identity\\Identity\\Identity\\DAL\\DataAccessLayer.cs",
+              "RelativeDocumentMoniker": "Identity\\DAL\\DataAccessLayer.cs",
+              "ToolTip": "D:\\Identity\\c\\Identity\\Identity\\Identity\\DAL\\DataAccessLayer.cs",
+              "RelativeToolTip": "Identity\\DAL\\DataAccessLayer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwCEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:21:28.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LaporanController.cs",
+              "DocumentMoniker": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Controllers\\LaporanController.cs",
+              "RelativeDocumentMoniker": "Identity\\Controllers\\LaporanController.cs",
+              "ToolTip": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Controllers\\LaporanController.cs",
+              "RelativeToolTip": "Identity\\Controllers\\LaporanController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAADwv1wAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:06:41.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProdukController.cs",
               "DocumentMoniker": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Controllers\\ProdukController.cs",
               "RelativeDocumentMoniker": "Identity\\Controllers\\ProdukController.cs",
               "ToolTip": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Controllers\\ProdukController.cs",
               "RelativeToolTip": "Identity\\Controllers\\ProdukController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCUAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFQAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T11:37:26.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Views\\Produk\\Edit.cshtml",
               "RelativeDocumentMoniker": "Identity\\Views\\Produk\\Edit.cshtml",
@@ -140,25 +178,49 @@
               "RelativeToolTip": "Identity\\Views\\Produk\\Edit.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAIBJwA8AAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T11:35:52.238Z",
+              "WhenOpened": "2024-11-26T11:35:52.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Produk.cs",
+              "DocumentMoniker": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Models\\Produk.cs",
+              "RelativeDocumentMoniker": "Identity\\Models\\Produk.cs",
+              "ToolTip": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Models\\Produk.cs",
+              "RelativeToolTip": "Identity\\Models\\Produk.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T11:26:45.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Identity\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Identity\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwCsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T11:44:31.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "List.cshtml",
               "DocumentMoniker": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Views\\Produk\\List.cshtml",
               "RelativeDocumentMoniker": "Identity\\Views\\Produk\\List.cshtml",
               "ToolTip": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Views\\Produk\\List.cshtml",
               "RelativeToolTip": "Identity\\Views\\Produk\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-26T11:35:12.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Views\\Produk\\Create.cshtml",
               "RelativeDocumentMoniker": "Identity\\Views\\Produk\\Create.cshtml",
@@ -166,12 +228,11 @@
               "RelativeToolTip": "Identity\\Views\\Produk\\Create.cshtml",
               "ViewState": "AgIAABAAAAAAAAAAAIBJwBwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T11:31:46.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T11:31:46.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "20241126112739_bb.Designer.cs",
               "DocumentMoniker": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Migrations\\20241126112739_bb.Designer.cs",
               "RelativeDocumentMoniker": "Identity\\Migrations\\20241126112739_bb.Designer.cs",
@@ -179,12 +240,11 @@
               "RelativeToolTip": "Identity\\Migrations\\20241126112739_bb.Designer.cs",
               "ViewState": "AgIAACkBAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T11:27:43.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T11:27:43.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "20241126112739_bb.cs",
               "DocumentMoniker": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Migrations\\20241126112739_bb.cs",
               "RelativeDocumentMoniker": "Identity\\Migrations\\20241126112739_bb.cs",
@@ -192,25 +252,11 @@
               "RelativeToolTip": "Identity\\Migrations\\20241126112739_bb.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T11:27:40.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T11:27:40.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Produk.cs",
-              "DocumentMoniker": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Models\\Produk.cs",
-              "RelativeDocumentMoniker": "Identity\\Models\\Produk.cs",
-              "ToolTip": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Models\\Produk.cs",
-              "RelativeToolTip": "Identity\\Models\\Produk.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T11:26:45.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Views\\Role\\Index.cshtml",
               "RelativeDocumentMoniker": "Identity\\Views\\Role\\Index.cshtml",
@@ -218,8 +264,7 @@
               "RelativeToolTip": "Identity\\Views\\Role\\Index.cshtml",
               "ViewState": "AgIAABAAAAAAAAAAAIBJwBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T22:50:29.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T22:50:29.01Z"
             }
           ]
         }

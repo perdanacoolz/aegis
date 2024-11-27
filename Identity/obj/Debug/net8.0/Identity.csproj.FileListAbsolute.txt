@@ -418,3 +418,16 @@ D:\Identity\c\Identity\Identity\Identity\obj\Debug\net8.0\Identity.sourcelink.js
 D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\itextsharp.dll
 D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\itextsharp.xmlworker.dll
+D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\itext.barcodes.dll
+D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\itext.forms.dll
+D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\itext.io.dll
+D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\itext.kernel.dll
+D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\itext.layout.dll
+D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\itext.pdfa.dll
+D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\itext.sign.dll
+D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\itext.styledxmlparser.dll
+D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\itext.svg.dll
+D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\itext.commons.dll
+D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\itext.html2pdf.dll
+D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Identity\c\Identity\Identity\Identity\bin\Debug\net8.0\BouncyCastle.Crypto.dll
