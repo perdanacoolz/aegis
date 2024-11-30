@@ -11,6 +11,7 @@ using iText.IO.Source;
 using iText.Kernel.Geom;
 using iText.Kernel.Pdf;
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
 namespace Identity.Controllers
 {
     public class ProdukController : Controller
@@ -21,6 +22,8 @@ namespace Identity.Controllers
             _context = context;
         }
         //get all staff in the database
+        
+        [Authorize(Roles = "Admin,kasir")]
         public IActionResult List()
         {
             var staff = _context.Produks.ToList();

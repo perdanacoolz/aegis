@@ -21,6 +21,6 @@ namespace Identity.Models
         [Required]
         public string StaffNo { set; get; }
 
-        public List<Produk> ShowallProduk{ get; set; }
+         
     }
 }

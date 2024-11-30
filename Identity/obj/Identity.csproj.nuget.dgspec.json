@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Identity\\c\\Identity\\Identity\\Identity\\Identity.csproj": {}
+    "D:\\aegis\\aegis\\Identity\\Identity.csproj": {}
   },
   "projects": {
-    "D:\\Identity\\c\\Identity\\Identity\\Identity\\Identity.csproj": {
+    "D:\\aegis\\aegis\\Identity\\Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Identity.csproj",
+        "projectUniqueName": "D:\\aegis\\aegis\\Identity\\Identity.csproj",
         "projectName": "Identity",
-        "projectPath": "D:\\Identity\\c\\Identity\\Identity\\Identity\\Identity.csproj",
+        "projectPath": "D:\\aegis\\aegis\\Identity\\Identity.csproj",
         "packagesPath": "C:\\Users\\perdana\\.nuget\\packages\\",
-        "outputPath": "D:\\Identity\\c\\Identity\\Identity\\Identity\\obj\\",
+        "outputPath": "D:\\aegis\\aegis\\Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -73,9 +73,19 @@
               "target": "Package",
               "version": "[8.0.2, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             },
             "itext7.pdfhtml": {
               "target": "Package",

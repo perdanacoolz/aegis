@@ -99,6 +99,9 @@ namespace Identity.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("ProdukId")
+                        .HasColumnType("int");
+
                     b.Property<string>("StaffNo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -116,6 +119,8 @@ namespace Identity.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ProdukId");
 
                     b.ToTable("Produks");
                 });
@@ -253,6 +258,13 @@ namespace Identity.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Identity.Models.Produk", b =>
+                {
+                    b.HasOne("Identity.Models.Produk", null)
+                        .WithMany("ShowallProduk")
+                        .HasForeignKey("ProdukId");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -302,6 +314,11 @@ namespace Identity.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Identity.Models.Produk", b =>
+                {
+                    b.Navigation("ShowallProduk");
                 });
 #pragma warning restore 612, 618
         }

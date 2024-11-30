@@ -21,8 +21,8 @@ namespace Identity.Controllers
             return View();
         }
 
-        [Authorize]
-        //[Authorize(Roles = "Manager")]
+         
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Secured()
         {
             AppUser user = await userManager.GetUserAsync(HttpContext.User);

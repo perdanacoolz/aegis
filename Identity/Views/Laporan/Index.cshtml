@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Identity.Models.Produk>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<h2>Report Rekap</h2>
+<br />
+ 
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nama_produk)
+            </th>
+            <th style="width:125">
+                @Html.DisplayNameFor(model => model.jenis_produk)
+            </th>
+
+            <th style="width:125">
+                @Html.DisplayNameFor(model => model.qty)
+            </th>
+
+            <th style="width:125">
+                @Html.DisplayNameFor(model => model.Designation)
+            </th>
+
+            <th style="width:125">
+                @Html.DisplayNameFor(model => model.StaffNo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nama_produk)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.jenis_produk)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.qty)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Designation)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.StaffNo)
+                </td>
+               
+            </tr>
+        }
+    </tbody>
+</table>
