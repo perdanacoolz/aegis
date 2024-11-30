@@ -38,7 +38,7 @@ namespace Identity.Controllers
 
             List<object> customers = (from customer in this._context.Produks.Take(10)
                                       select new[] {
-                                      
+                                       
                                       customer.nama_produk,
                                       customer.jenis_produk,
                                       customer.Designation,
@@ -53,10 +53,11 @@ namespace Identity.Controllers
 
             //Building the Header row.
             sb.Append("<tr>");
-            sb.Append("<th style='background-color: #B8DBFD;border: 1px solid #ccc'>CustomerID</th>");
-            sb.Append("<th style='background-color: #B8DBFD;border: 1px solid #ccc'>ContactName</th>");
-            sb.Append("<th style='background-color: #B8DBFD;border: 1px solid #ccc'>City</th>");
-            sb.Append("<th style='background-color: #B8DBFD;border: 1px solid #ccc'>Country</th>");
+            //sb.Append("<th style='background-color: #B8DBFD;border: 1px solid #ccc'>Id</th>");
+            sb.Append("<th style='background-color: #B8DBFD;border: 1px solid #ccc'>jenis produk</th>");
+            sb.Append("<th style='background-color: #B8DBFD;border: 1px solid #ccc'>nama produk</th>");
+            sb.Append("<th style='background-color: #B8DBFD;border: 1px solid #ccc'>qty</th>");
+            sb.Append("<th style='background-color: #B8DBFD;border: 1px solid #ccc'>staff id</th>");
             sb.Append("</tr>");
 
             //Building the Data rows.

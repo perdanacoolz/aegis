@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\aegis\\aegis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\controllers\\laporancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\controllers\\laporancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\controllers\\produkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\controllers\\produkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\views\\produk\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\views\\produk\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\dal\\dataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\dal\\dataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\dal\\dalconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\dal\\dalconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\controllers\\laporancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\controllers\\laporancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\dal\\dalconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\dal\\dalconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\dal\\dataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\dal\\dataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -47,20 +55,16 @@
       "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\models\\resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\migrations\\20241130001920_produk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\migrations\\20241130001920_produk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\custompolicy\\allowuserpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\custompolicy\\allowuserpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|d:\\aegis\\aegis\\identity\\views\\produk\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EA7D82D5-ED73-4150-B9FD-607E104BE8EA}|Identity\\Identity.csproj|solutionrelative:identity\\views\\produk\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\aegis\\aegis\\Identity\\Migrations\\20241130001920_produk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Identity\\Migrations\\20241130001920_produk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,46 +138,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Identity\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\aegis\\aegis\\Identity\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Identity\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T07:33:36.725Z",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\Views\\Produk\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Identity\\Views\\Produk\\Edit.cshtml",
+              "ToolTip": "D:\\aegis\\aegis\\Identity\\Views\\Produk\\Edit.cshtml",
+              "RelativeToolTip": "Identity\\Views\\Produk\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T09:19:23.321Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EmailController.cs",
-              "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\Controllers\\EmailController.cs",
-              "RelativeDocumentMoniker": "Identity\\Controllers\\EmailController.cs",
-              "ToolTip": "D:\\aegis\\aegis\\Identity\\Controllers\\EmailController.cs",
-              "RelativeToolTip": "Identity\\Controllers\\EmailController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T07:33:36.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "DataAccessLayer.cs",
               "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\DAL\\DataAccessLayer.cs",
               "RelativeDocumentMoniker": "Identity\\DAL\\DataAccessLayer.cs",
               "ToolTip": "D:\\aegis\\aegis\\Identity\\DAL\\DataAccessLayer.cs",
               "RelativeToolTip": "Identity\\DAL\\DataAccessLayer.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADQAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwDQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T00:56:10.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "LaporanController.cs",
               "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\Controllers\\LaporanController.cs",
               "RelativeDocumentMoniker": "Identity\\Controllers\\LaporanController.cs",
@@ -181,25 +172,24 @@
               "RelativeToolTip": "Identity\\Controllers\\LaporanController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T00:18:22.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T00:18:22.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProdukController.cs",
               "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\Controllers\\ProdukController.cs",
               "RelativeDocumentMoniker": "Identity\\Controllers\\ProdukController.cs",
               "ToolTip": "D:\\aegis\\aegis\\Identity\\Controllers\\ProdukController.cs",
               "RelativeToolTip": "Identity\\Controllers\\ProdukController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T00:02:29.408Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Produk.cs",
               "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\Models\\Produk.cs",
               "RelativeDocumentMoniker": "Identity\\Models\\Produk.cs",
@@ -207,12 +197,11 @@
               "RelativeToolTip": "Identity\\Models\\Produk.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAA8wBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T00:08:07.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T00:08:07.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Identity\\Views\\Shared\\_Layout.cshtml",
@@ -220,8 +209,32 @@
               "RelativeToolTip": "Identity\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T00:35:09.887Z",
+              "WhenOpened": "2024-11-30T00:35:09.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Identity\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\aegis\\aegis\\Identity\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Identity\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAwCAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T00:37:31.255Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "Identity\\Controllers\\EmailController.cs",
+              "ToolTip": "D:\\aegis\\aegis\\Identity\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "Identity\\Controllers\\EmailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T07:33:36.026Z"
             },
             {
               "$type": "Document",
@@ -233,12 +246,23 @@
               "RelativeToolTip": "Identity\\DAL\\DALConnection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T06:43:35.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T06:43:35.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Identity\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\aegis\\aegis\\Identity\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Identity\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T07:33:36.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\Views\\Laporan\\Index.cshtml",
               "RelativeDocumentMoniker": "Identity\\Views\\Laporan\\Index.cshtml",
@@ -246,12 +270,11 @@
               "RelativeToolTip": "Identity\\Views\\Laporan\\Index.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAD8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T07:00:36.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T07:00:36.688Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\appsettings.json",
               "RelativeDocumentMoniker": "Identity\\appsettings.json",
@@ -259,12 +282,11 @@
               "RelativeToolTip": "Identity\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-30T00:08:47.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T00:08:47.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ResetPassword.cs",
               "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\Models\\ResetPassword.cs",
               "RelativeDocumentMoniker": "Identity\\Models\\ResetPassword.cs",
@@ -276,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "20241130001920_produk.cs",
               "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\Migrations\\20241130001920_produk.cs",
               "RelativeDocumentMoniker": "Identity\\Migrations\\20241130001920_produk.cs",
@@ -297,18 +319,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-30T00:10:02.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\aegis\\aegis\\Identity\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Identity\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\aegis\\aegis\\Identity\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Identity\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwB8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T00:37:31.255Z"
             },
             {
               "$type": "Document",
